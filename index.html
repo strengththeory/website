@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strength Theory, LLC.</title>
+<meta name="description" content="Strength Theory, LLC. is a California company that develops consumer food and beverage products and software applications.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231c1c1e'/%3E%3Ctext x='32' y='43' font-family='Helvetica,Arial,sans-serif' font-size='30' font-weight='700' fill='%23fff' text-anchor='middle'%3EST%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f5f5f4;
+    --text: #1c1c1e;
+    --muted: #5f5f63;
+    --line: #e4e4e2;
+    --accent: #1c1c1e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111113;
+      --surface: #1c1c1f;
+      --text: #f2f2f0;
+      --muted: #a5a5aa;
+      --line: #2c2c30;
+      --accent: #f2f2f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+  a { color: inherit; }
+  p, address, footer span { overflow-wrap: anywhere; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+  header { border-bottom: 1px solid var(--line); }
+  header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { font-weight: 700; letter-spacing: -0.01em; text-decoration: none; }
+  nav a { color: var(--muted); text-decoration: none; margin-left: 20px; font-size: 15px; }
+  nav a:hover { color: var(--text); }
+  .hero { padding: 96px 0 72px; }
+  .hero h1 { font-size: clamp(40px, 7vw, 64px); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 16px; }
+  .hero .tag { font-size: clamp(20px, 3vw, 24px); color: var(--muted); margin: 0 0 24px; }
+  .hero p { max-width: 600px; margin: 0 0 32px; }
+  .btn {
+    display: inline-block; padding: 12px 22px; border-radius: 999px;
+    background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px;
+  }
+  section { padding: 56px 0; border-top: 1px solid var(--line); }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin: 0 0 20px; font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 1fr)); gap: 20px; }
+  .card { background: var(--surface); border-radius: 16px; padding: 28px; }
+  .card h3 { margin: 0 0 4px; font-size: 24px; letter-spacing: -0.02em; }
+  .card .line { margin: 0 0 12px; font-weight: 600; }
+  .card p { margin: 0 0 12px; color: var(--muted); }
+  .status { display: inline-block; font-size: 13px; font-weight: 600; padding: 4px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+  address { font-style: normal; }
+  footer { border-top: 1px solid var(--line); padding: 32px 0 48px; color: var(--muted); font-size: 14px; }
+  footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 24px; justify-content: space-between; }
+  @media (max-width: 520px) {
+    .wrap { padding: 0 16px; }
+    nav a { margin-left: 14px; }
+    .hero { padding: 64px 0 48px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <a class="brand" href="/">Strength Theory</a>
+    <nav>
+      <a href="#brands">Brands</a>
+      <a href="#contact">Contact</a>
+      <a href="/privacy/">Privacy</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <h1>Strength Theory</h1>
+    <p class="tag">Everyday products, built with care.</p>
+    <p>Strength Theory, LLC. is a California company that develops consumer food and beverage products and software applications.</p>
+    <a class="btn" href="mailto:hello@thestrengththeory.com">Contact us</a>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <h2>About us</h2>
+      <p>Strength Theory, LLC. was founded in California in 2024. We design and develop our own brands, from functional food and beverage products to mobile software. We focus on simple, well-made products.</p>
+    </div>
+  </section>
+
+  <section id="brands">
+    <div class="wrap">
+      <h2>Our brands</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>masiso</h3>
+          <p class="line">A ready-to-shake protein drink line.</p>
+          <p>Currently in development.</p>
+          <span class="status">Coming soon</span>
+        </div>
+        <div class="card">
+          <h3>sellframe</h3>
+          <p class="line">An iPhone camera that coaches you to better product photos for your shop.</p>
+          <p>sellframe guides you through every shot of your products on your iPhone, then turns the photos into clean white-background and studio images for your listings.</p>
+          <span class="status">Coming soon to the App Store</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <address>
+        <strong>Strength Theory, LLC.</strong><br>
+        2108 N St, Ste N<br>
+        Sacramento, CA 95816<br>
+        United States<br><br>
+        Email: <a href="mailto:hello@thestrengththeory.com">hello@thestrengththeory.com</a>
+      </address>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; 2026 Strength Theory, LLC. &middot; 2108 N St, Ste N, Sacramento, CA 95816</span>
+    <span><a href="mailto:hello@thestrengththeory.com">hello@thestrengththeory.com</a> &middot; <a href="/privacy/">Privacy Policy</a></span>
+  </div>
+</footer>
+</body>
+</html>
